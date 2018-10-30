@@ -4,4 +4,4 @@ install:
   - ./install.sh
 
 script:
-  - terraform --version
+  - terragrunt --version

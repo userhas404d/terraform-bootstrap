@@ -39,7 +39,9 @@ echo "Your processor is $processor ($(uname -m))"
 # download -------------------------------------------
 echo "Downloading terragrunt from github..."
 
-curl -Lso terragrunt https://github.com/gruntwork-io/terragrunt/releases/download/v${latest_version}/terragrunt_${platform}_${processor}
+# curl -Lso terragrunt https://github.com/gruntwork-io/terragrunt/releases/download/v${latest_version}/terragrunt_${platform}_${processor}
+curl -Lso terragrunt https://github.com/gruntwork-io/terragrunt/releases/download/v0.18.7/terragrunt_${platform}_${processor}
+
 
 # Install --------------------------------------------
 echo "Installing Terragrunt..."
